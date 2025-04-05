@@ -16,7 +16,7 @@ This is a simple and modern blog website built with **Node.js**, **Express**, an
 - **Backend:** Node.js, Express.js
 - **Templating Engine:** EJS
 - **Frontend:** HTML, CSS, Flexbox
-- **Database:** (Add if using one, like MongoDB or SQLite)
+- **Database:** MongoDB 
 - **Version Control:** Git & GitHub
 
 ## 🚀 Getting Started
