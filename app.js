@@ -7,7 +7,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 // connect to mongodb & listen for requests
-const dbURI = "mongodb://localhost:27017";
+const dbURI = process.env.dbURI;
 
 mongoose.connect(dbURI)
   .then(() => {
